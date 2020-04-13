@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEPLOY_USERNAME="hessro"
+DEPLOY_USERNAME="greendan"
 DEPLOY_HOST="flip.engr.oregonstate.edu"
 DEPLOY_DEST_DIR="public_html"
 DEPLOY_SRC_DIR="build"

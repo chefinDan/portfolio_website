@@ -11,7 +11,7 @@ Then, you can run it:
 npm start
 ```
 
-You'll then be able to visit the site in your browser.  As it's currently set up, the site will be available at http://localhost:3000/~hessro/.  However, if you make any of the changes described below to deploy the site to your own ENGR webspace, the URL on `localhost` will change correspondingly.
+You'll then be able to visit the site in your browser.  As it's currently set up, the site will be available at http://localhost:3000/~greendan/.  However, if you make any of the changes described below to deploy the site to your own ENGR webspace, the URL on `localhost` will change correspondingly.
 
 ## Deploying
 
