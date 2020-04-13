@@ -2,7 +2,7 @@
   "name": "my-osu-website",
   "version": "0.2.0",
   "private": true,
-  "homepage": "http://web.engr.oregonstate.edu/~hessro/",
+  "homepage": "http://web.engr.oregonstate.edu/~greendan/",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
