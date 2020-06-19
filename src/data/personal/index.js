@@ -1,37 +1,31 @@
-import officeHours from './officeHours';
 import aboutMeText from './aboutMeText';
 
-import photoUrl from '../../static/rob.jpg';
+import photoUrl from '../../static/dan415x400.png';
 
 const personalData = {
-  name: 'Rob Hess',
-  email: 'hessro@oregonstate.edu',
-  title: 'Instructor',
-
-  office: {
-    text: 'KEC 1109',
-    link: 'https://goo.gl/maps/DoQVXpSxZrQ2'
-  },
-
-  department: {
-    text: 'School of EECS',
-    link: 'http://eecs.oregonstate.edu/',
-  },
+  name: 'Daniel Green',
+  email: 'greendan@oregonstate.edu',
+  title: 'Computer Science Graduate 2020',
 
   institution: {
     text: 'Oregon State University',
-    link: 'http://oregonstate.edu/'
+    link: 'http://oregonstate.edu/',
+    department: {
+      text: 'School of EECS',
+      link: 'http://eecs.oregonstate.edu/',
+    },
+    address: {
+      city: 'Corvallis OR'
+    }
   },
 
   city: {
-    text: 'Corvallis, OR 97331'
+    text: 'Albany, OR 97321'
   },
 
-  gitHub: 'https://github.com/robwhess',
+  gitHub: 'https://github.com/chefindan',
 
   photoUrl: photoUrl,
-
-  officeHours: officeHours,
 
   aboutMeText: aboutMeText
 };

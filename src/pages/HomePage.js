@@ -34,7 +34,7 @@ const HomePageSectionBox = styled(SectionBox)`
 const TransprentFlexContainer = styled.div`
   display: flex;
   flex-wrap: ${props => props.wrapping ? 'wrap' : 'initial'};
-  @media (max-width: ${breakpoints[0]}px) {
+  @media (max-width: ${props => props.width ? props.width : breakpoints[0]}px) {
     flex-direction: column;
   }
 `;
@@ -95,7 +95,7 @@ function HomePage() {
     <PageContent>
       <TransprentFlexContainer>
         <HomePageSectionBox>
-          <TransprentFlexContainer wrapping>
+          <TransprentFlexContainer wrapping={true}>
             {personalData.photoUrl ?
               <PhotoContainer>
                 <PhotoImg src={personalData.photoUrl} alt={personalData.name} />
@@ -105,20 +105,26 @@ function HomePage() {
               <Name>{personalData.name}</Name>
               {personalData.title ? <Title>{personalData.title}</Title> : null}
               <AddressContainer>
-                <p>Address:</p>
+                <p>Institution:</p>
                 <Address>
-                  {personalData.office ?
-                    <p><OptionalLink text={personalData.office.text} link={personalData.office.link} newTab /></p> :
-                    null
-                  }
-                  {personalData.department ?
-                    <p><OptionalLink text={personalData.department.text} link={personalData.department.link} newTab /></p> :
+                  {personalData.institution.department ?
+                    <p><OptionalLink text={personalData.institution.department.text} link={personalData.institution.department.link} newTab /></p> :
                     null
                   }
                   {personalData.institution ?
                     <p><OptionalLink text={personalData.institution.text} link={personalData.institution.link} newTab /></p> :
                     null
                   }
+                  {personalData.institution.address ?
+                    <p><OptionalLink text={personalData.institution.address.city} /></p> :
+                    null
+                  }
+                </Address>
+              </AddressContainer>
+
+              <AddressContainer>
+                <p>Address:</p>
+                <Address>
                   {personalData.city ?
                     <p><OptionalLink text={personalData.city.text} link={personalData.city.link} newTab /></p> :
                     null

@@ -78,7 +78,7 @@ function CommunityPage() {
           If you are the victim of harassment in one of my classes, there are several resources available to you:
         </p>
         <ul>
-          <li>You may <a href="mailto:hessro@oregonstate.edu">schedule a private meeting</a> to talk to me.</li>
+          <li>You may <a href="mailto:greendan@oregonstate.edu">schedule a private meeting</a> to talk to me.</li>
           <li>You may <a href="http://oregonstate.qualtrics.com/jfe/form/SV_2mdIdTRe2ObShwx" target="_blank" rel="noopener noreferrer"> submit a bias incident report</a> (anonymously if you wish) to OSU's Bias Response Team.</li>
           <li>You may <a href="https://oregonstate2-gme-advocate.symplicity.com/public_report/" target="_blank" rel="noopener noreferrer">submit a public incident report</a> to OSU's department of human resources.</li>
           <li>You may contact OSU's <a href="http://oregonstate.edu/ombuds/" target="_blank" rel="noopener noreferrer">University Ombuds Office</a> for confidential guidance and advice.</li>

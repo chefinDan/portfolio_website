@@ -23,7 +23,7 @@ const TermInfoContainer = styled.div`
 function TeachingPage() {
   return (
     <PageContent>
-      <Helmet title="Teaching" />
+      <Helmet title="Projects" />
       <SectionBox>
         {Object.keys(courseData).map((term, i) => (
           <TermInfoContainer key={i}>
